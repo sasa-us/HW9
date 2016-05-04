@@ -1,0 +1,8 @@
+mkdir -p ./mongodb/data
+
+./mongodb/bin/mongod --dbpath=$HOME/mongodb/data &
+
+cd sasa
+node server.js
+
+need reload 
